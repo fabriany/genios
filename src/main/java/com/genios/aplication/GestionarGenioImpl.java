@@ -3,10 +3,12 @@ package com.genios.aplication;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.genios.entitys.Genio;
 import com.genios.repo.IGenioRepo;
 
+@Service
 public class GestionarGenioImpl implements IGestionarGenio {
 
 	@Autowired
